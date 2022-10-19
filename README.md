@@ -12,14 +12,21 @@ Neste exercício você usará a estrutura Express para implementar uma funcional
 	- Acesse-o com o comando: cd nodejs-express
 	- Crie o arquivo package.json com o comando: npm init
 	- Responda as perguntas com as respostas padrão
+	- Edite o arquivo package.json adicionando o script start:
+
+	"scripts": {
+	    "test": "echo \"Error: no test specified\" && exit 1",
+	    "start": "node index.js"
+    },
+
 	- Crie uma subpasta com o comando: mkdir public
 	- Crie dois arquivos na pasta public: index.html e sobre.html
-	- Instale o Express com o comando: nom install express --save
+	- Instale o Express com o comando: npm install express --save
 	- Crie um arquivo chamado .gitignore contendo node_modules
 	- Crie um arquivo chamado index.js com o seguinte conteúdo:
 
 	const express = require('express'),
-     http = require('http');
+    http = require('http');
 
 	const hostname = 'localhost';
 	const port = 3000;
